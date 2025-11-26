@@ -1,0 +1,83 @@
+
+export const countryCoordinates: Record<string, { lat: number; lon: number }> = {
+  // Existing Data
+  "Turkey": { lat: 38.9637, lon: 35.2433 },
+  "USA": { lat: 37.0902, lon: -95.7129 },
+  "UK": { lat: 55.3781, lon: -3.4360 },
+  "China": { lat: 35.8617, lon: 104.1954 },
+  "Japan": { lat: 36.2048, lon: 138.2529 },
+  "India": { lat: 20.5937, lon: 78.9629 },
+  "Brazil": { lat: -14.2350, lon: -51.9253 },
+  "Russia": { lat: 61.5240, lon: 105.3188 },
+  "Germany": { lat: 51.1657, lon: 10.4515 },
+  "France": { lat: 46.2276, lon: 2.2137 },
+  "Italy": { lat: 41.8719, lon: 12.5674 },
+  "Spain": { lat: 40.4637, lon: -3.7492 },
+  "Canada": { lat: 56.1304, lon: -106.3468 },
+  "Australia": { lat: -25.2744, lon: 133.7751 },
+  "Mexico": { lat: 23.6345, lon: -102.5528 },
+  "Indonesia": { lat: -0.7893, lon: 113.9213 },
+  "South Africa": { lat: -30.5595, lon: 22.9375 },
+  "Egypt": { lat: 26.8206, lon: 30.8025 },
+  "Nigeria": { lat: 9.0820, lon: 8.6753 },
+  "Argentina": { lat: -38.4161, lon: -63.6167 },
+  "South Korea": { lat: 35.9078, lon: 127.7669 },
+  "Saudi Arabia": { lat: 23.8859, lon: 45.0792 },
+  "Iran": { lat: 32.4279, lon: 53.6880 },
+  "Pakistan": { lat: 30.3753, lon: 69.3451 },
+  "Thailand": { lat: 15.8700, lon: 100.9925 },
+  "Vietnam": { lat: 14.0583, lon: 108.2772 },
+  "Poland": { lat: 51.9194, lon: 19.1451 },
+  "Ukraine": { lat: 48.3794, lon: 31.1656 },
+  "Colombia": { lat: 4.5709, lon: -74.2973 },
+  "Sweden": { lat: 60.1282, lon: 18.6435 },
+
+  // New Additions (Europe)
+  "Netherlands": { lat: 52.1326, lon: 5.2913 },
+  "Belgium": { lat: 50.5039, lon: 4.4699 },
+  "Switzerland": { lat: 46.8182, lon: 8.2275 },
+  "Austria": { lat: 47.5162, lon: 14.5501 },
+  "Portugal": { lat: 39.3999, lon: -8.2245 },
+  "Greece": { lat: 39.0742, lon: 21.8243 },
+  "Norway": { lat: 60.4720, lon: 8.4689 },
+  "Finland": { lat: 61.9241, lon: 25.7482 },
+  "Denmark": { lat: 56.2639, lon: 9.5018 },
+  "Ireland": { lat: 53.1424, lon: -7.6921 },
+  "Czech Republic": { lat: 49.8175, lon: 15.4730 },
+  "Romania": { lat: 45.9432, lon: 24.9668 },
+  "Hungary": { lat: 47.1625, lon: 19.5033 },
+  "Azerbaycan": { lat: 40.1431, lon: 47.5769 },
+
+  // New Additions (Asia / Middle East)
+  "Philippines": { lat: 12.8797, lon: 121.7740 },
+  "Malaysia": { lat: 4.2105, lon: 101.9758 },
+  "Bangladesh": { lat: 23.6850, lon: 90.3563 },
+  "Kazakhstan": { lat: 48.0196, lon: 66.9237 },
+  "Iraq": { lat: 33.2232, lon: 43.6793 },
+  "Israel": { lat: 31.0461, lon: 34.8516 },
+  "UAE": { lat: 23.4241, lon: 53.8478 },
+  "Uzbekistan": { lat: 41.3775, lon: 64.5853 },
+  "Myanmar": { lat: 21.9162, lon: 95.9560 },
+  "Afghanistan": { lat: 33.9391, lon: 67.7100 },
+
+  // New Additions (Americas)
+  "Chile": { lat: -35.6751, lon: -71.5430 },
+  "Peru": { lat: -9.1900, lon: -75.0152 },
+  "Venezuela": { lat: 6.4238, lon: -66.5897 },
+  "Cuba": { lat: 21.5218, lon: -77.7812 },
+  "Ecuador": { lat: -1.8312, lon: -78.1834 },
+  "Guatemala": { lat: 15.7835, lon: -90.2308 },
+
+  // New Additions (Africa)
+  "Ethiopia": { lat: 9.1450, lon: 40.4897 },
+  "Kenya": { lat: -0.0236, lon: 37.9062 },
+  "Tanzania": { lat: -6.3690, lon: 34.8888 },
+  "Morocco": { lat: 31.7917, lon: -7.0926 },
+  "Algeria": { lat: 28.0339, lon: 1.6596 },
+  "Ghana": { lat: 7.9465, lon: -1.0232 },
+  "DR Congo": { lat: -4.0383, lon: 21.7587 },
+  "Sudan": { lat: 12.8628, lon: 30.2176 },
+
+  // New Additions (Oceania)
+  "New Zealand": { lat: -40.9006, lon: 174.8860 }
+};

@@ -1,0 +1,5 @@
+{
+  "name": "PoseidonVest 3",
+  "description": "Interactive 3D Earth visualization using NASA Blue Marble textures with Three.js and React Three Fiber.",
+  "requestFramePermissions": []
+}
